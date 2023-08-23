@@ -30,7 +30,6 @@ public class Session {
     @Id
     @GeneratedValue(strategy = IDENTITY)
     private String id;
-    @Column(name = "session_id")
     private String sessionId;
     private LocalDateTime timeout;
     @ManyToOne
