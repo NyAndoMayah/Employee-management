@@ -1,7 +1,7 @@
 package com.example.prog4.service;
 
-import com.example.prog4.repository.PhoneRepository;
-import com.example.prog4.repository.entity.Phone;
+import com.example.prog4.repository.main.PhoneRepository;
+import com.example.prog4.repository.main.entity.Phone;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
